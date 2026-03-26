@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موضوع امتحان: العلوم الإسلامية | منصة نوفل</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --main-color: #166534; /* أخضر إسلامي داكن */
+            --secondary-color: #22c55e;
+            --accent-color: #d97706; /* ذهبي */
+            --bg-color: #f0fdf4;
+            --text-color: #1e293b;
+        }
+
+        body {
+            font-family: 'Tajawal', sans-serif;
+            background-color: #e2e8f0;
+            margin: 0;
+            padding: 20px;
+            color: var(--text-color);
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            border-radius: 12px;
+            border-top: 8px solid var(--main-color);
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px dashed var(--main-color);
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+        }
+
+        header h1 {
+            font-family: 'Cairo', sans-serif;
+            color: var(--main-color);
+            font-size: 2.2rem;
+            margin-bottom: 5px;
+        }
+
+        .quran-verse {
+            background-color: #fefce8;
+            border: 1px solid #fde047;
+            padding: 20px;
+            border-radius: 8px;
+            font-size: 1.25rem;
+            text-align: center;
+            color: #854d0e;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+            font-weight: 500;
+        }
+
+        .section-title {
+            display: flex;
+            align-items: center;
+            background: var(--bg-color);
+            padding: 10px 20px;
+            border-radius: 8px;
+            border-right: 6px solid var(--accent-color);
+            margin: 30px 0 20px 0;
+            justify-content: space-between;
+        }
+
+        .section-title h2 {
+            margin: 0;
+            font-family: 'Cairo', sans-serif;
+            color: var(--main-color);
+            font-size: 1.5rem;
+        }
+
+        .part-points {
+            background: var(--main-color);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-size: 1rem;
+            font-weight: bold;
+            font-family: 'Cairo', sans-serif;
+        }
+
+        .content-box {
+            padding: 20px;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            background: #ffffff;
+        }
+
+        .question-list {
+            list-style-type: decimal;
+            padding-right: 25px;
+            font-size: 1.1rem;
+        }
+
+        .question-list > li {
+            margin-bottom: 20px;
+            font-weight: bold;
+            color: #0f172a;
+        }
+
+        .sub-questions {
+            list-style-type: arabic-indic;
+            margin-top: 10px;
+            padding-right: 20px;
+            font-weight: normal;
+        }
+
+        .sub-questions li {
+            margin-bottom: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            border-bottom: 1px dashed #cbd5e1;
+            padding-bottom: 5px;
+        }
+
+        .q-text {
+            flex-grow: 1;
+        }
+
+        .points {
+            background: #f1f5f9;
+            color: var(--accent-color);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.95rem;
+            font-weight: bold;
+            white-space: nowrap;
+            margin-right: 15px;
+            border: 1px solid #e2e8f0;
+        }
+
+        .context-box {
+            font-size: 1.15rem;
+            background: #f8fafc;
+            padding: 15px;
+            border-right: 4px solid #3b82f6;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+
+        .btn-print {
+            display: block;
+            width: 250px;
+            margin: 40px auto 0;
+            padding: 15px;
+            background: var(--main-color);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            font-family: 'Cairo', sans-serif;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(22, 101, 52, 0.2);
+            transition: 0.3s;
+        }
+
+        .btn-print:hover { background: #14532d; }
+
+        @media print {
+            .btn-print { display: none; }
+            body { background: white; padding: 0; }
+            .container { box-shadow: none; border: none; padding: 0; max-width: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>اختبار في مادة العلوم الإسلامية</h1>
+        <p style="font-size: 1.1rem; color: #64748b;">منصة نوفل - تحضير بكالوريا 2026</p>
+    </header>
+
+    <div class="section-title">
+        <h2>الجزء الأول</h2>
+        <span class="part-points">12 نقطة</span>
+    </div>
+    <div class="content-box">
+        <div class="quran-verse">
+            قال الله تعالى: ﴿يَا أَيُّهَا الَّذِينَ آمَنُوا إِنَّمَا الْخَمْرُ وَالْمَيْسِرُ وَالْأَنصَابُ وَالْأَزْلَامُ رِجْسٌ مِّنْ عَمَلِ الشَّيْطَانِ فَاجْتَنِبُوهُ لَعَلَّكُمْ تُفْلِحُونَ * إِنَّمَا يُرِيدُ الشَّيْطَانُ أَن يُوقِعَ بَيْنَكُمُ الْعَدَاوَةَ وَالْبَغْضَاءَ فِي الْخَمْرِ وَالْمَيْسِرِ وَيَصُدَّكُمْ عَن ذِكْرِ اللَّهِ وَعَنِ الصَّلَاةِ ۖ فَهَلْ أَنتُم مُّنتَهُونَ﴾ [المائدة: 90-91].
+        </div>
+        
+        <ol class="question-list">
+            <li>تبرز الآيات الكريمة حرص الإسلام على حماية إحدى أهم النعم التي ميز بها الإنسان، وهي نعمة "العقل".
+                <ul class="sub-questions">
+                    <li><span class="q-text">اذكر أهمية العقل في القرآن الكريم.</span> <span class="points">02 ن</span></li>
+                    <li><span class="q-text">كيف حافظ الإسلام على الكليات الخمس (ومنها العقل) من جانب العدم انطلاقاً من الآية؟</span> <span class="points">02 ن</span></li>
+                </ul>
+            </li>
+            
+            <li>شرب الخمر يُعد من الانحرافات والجرائم التي حاربها الإسلام بشدة.
+                <ul class="sub-questions">
+                    <li><span class="q-text">عرّف الجريمة اصطلاحاً.</span> <span class="points">01 ن</span></li>
+                    <li><span class="q-text">ما نوع العقوبة المقررة لشارب الخمر شرعاً؟ وما هو المقصد الشرعي من تشريعها؟</span> <span class="points">02 ن</span></li>
+                    <li><span class="q-text">ما الفرق بين هذه العقوبة وعقوبة "التعزير"؟</span> <span class="points">02 ن</span></li>
+                </ul>
+            </li>
+            
+            <li>الاستخراج من الآيات الكريمة:
+                <ul class="sub-questions">
+                    <li><span class="q-text">استخرج من الآيتين حكماً شرعياً وفائدة، محترماً منهجية الاستخراج.</span> <span class="points">03 ن</span></li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    <div class="section-title">
+        <h2>الجزء الثاني</h2>
+        <span class="part-points">08 نقاط</span>
+    </div>
+    <div class="content-box">
+        <div class="context-box">
+            <strong>السياق:</strong> حاور شاب مسلم زميلاً له يعتنق "المسيحية"، فبين له بالأدلة أن الإسلام هو الدين الخاتم وأن الرسالات السابقة طالها التحريف البشري. وبعد مدة، توفي هذا الشاب المسلم وترك: <strong>(زوجة، وبنتاً، وأخاً شقيقاً)</strong>.
+        </div>
+
+        <ol class="question-list" start="1">
+            <li>الرسالات السماوية:
+                <ul class="sub-questions">
+                    <li><span class="q-text">من خلال السياق، وضّح علاقة رسالة الإسلام بالرسالات السماوية السابقة.</span> <span class="points">02 ن</span></li>
+                    <li><span class="q-text">اذكر انحرافين (02) من الانحرافات العقدية في الديانة المسيحية المحرفة.</span> <span class="points">02 ن</span></li>
+                </ul>
+            </li>
+            <li>الميراث:
+                <ul class="sub-questions">
+                    <li><span class="q-text">قسّم التركة التي تركها الشاب على ورثته، موضحاً نصيب كل وارث، ونوع الميراث (فرض أم تعصيب)، مع التعليل الشرعي.</span> <span class="points">04 ن</span></li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    <button class="btn-print" onclick="window.print()">🖨️ طباعة الموضوع</button>
+</div>
+
+</body>
+</html>
